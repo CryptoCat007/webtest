@@ -19,7 +19,7 @@ const projectId = 'f0b70b73eecbb75655a87cecbcf45f96' // 這是公開的範例 ID
 const metadata = {
   name: 'Copy Frenzy Onboarding',
   description: 'Connect your wallet to get started',
-  url: 'https://webtest-0529-qhva9r26n-cutiees-projects.vercel.app/', // 部署後請換成你的 Vercel 網址
+  url: 'https://webtest-0529.vercel.app', // 部署後請換成你的 Vercel 網址
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
 
