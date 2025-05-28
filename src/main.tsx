@@ -13,13 +13,13 @@ const queryClient = new QueryClient()
 
 // 1. 取得你自己的 projectId。請至 https://cloud.walletconnect.com 申請
 //    **注意**: 為了能順利執行，請務必替換成你自己的 Project ID。
-const projectId = 'e37349977b5a32a76de70b135c9a1249' // 這是公開的範例 ID，建議換成自己的
+const projectId = 'f0b70b73eecbb75655a87cecbcf45f96' // 這是公開的範例 ID，建議換成自己的
 
 // 2. 建立 Wagmi 設定
 const metadata = {
   name: 'Copy Frenzy Onboarding',
   description: 'Connect your wallet to get started',
-  url: 'https://web3modal.com', // 部署後請換成你的 Vercel 網址
+  url: 'https://webtest-0529-qhva9r26n-cutiees-projects.vercel.app/', // 部署後請換成你的 Vercel 網址
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
 
@@ -35,7 +35,7 @@ createWeb3Modal({
   wagmiConfig: config,
   projectId,
   enableAnalytics: true,
-  themeMode: 'dark'
+  themeMode: 'light'
 })
 
 ReactDOM.createRoot(document.getElementById('root')).render(
